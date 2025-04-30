@@ -20,7 +20,8 @@ document.getElementById('user-name').textContent = tg.initDataUnsafe.user?.first
 document.getElementById('send-data-btn').addEventListener('click', () => {
     const data = {
         action: 'button_click',
-        time: new Date().toISOString()
+        time: new Date().toISOString(),
+        data: 'Вы нажали кнопку'
     };
     
     // Отправляем данные боту
