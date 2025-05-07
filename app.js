@@ -23,7 +23,9 @@ document.getElementById('send-data-btn').addEventListener('click', () => {
         time: new Date().toISOString(),
         data: 'Вы нажали кнопку'
     };
-    
+
+    console.log("Отправляю данные:", data);
+
     // Отправляем данные боту
     tg.sendData(JSON.stringify(data));
     
