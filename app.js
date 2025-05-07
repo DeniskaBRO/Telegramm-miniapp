@@ -5,7 +5,7 @@ const tg = window.Telegram.WebApp;
 tg.MainButton.show();
 tg.MainButton.setParams({
     text: "ЗАКРЫТЬ",
-    color: "#0088cc"
+    color: "#cc004b"
 });
 
 // Обработчик клика по кнопке закрытия
